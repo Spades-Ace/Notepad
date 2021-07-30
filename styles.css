@@ -10,6 +10,20 @@ body {
   height: 100vh;
 }
 
+textarea {
+  resize: none;
+  background-color: #457b9d;
+  border: 0px solid white;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  flex: 1;
+}
+
+textarea:focus {
+  border: 0px;
+}
+
 body {
   background-color: #457b9d;
   display: flex;
@@ -24,7 +38,6 @@ body {
 #heading {
   background-color: #e63946;
   border-bottom: 8px solid #e9d8a6;
-  padding-bottom: 12px;
 }
 
 h1 {
