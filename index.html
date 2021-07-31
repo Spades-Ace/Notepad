@@ -6,23 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Online Notepad</title>
+    <div>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fredoka+One&family=Righteous&family=Itim&display=swap"
+        rel="stylesheet"
+      />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fredoka+One&family=Righteous&family=Itim&display=swap"
-      rel="stylesheet"
-    />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Righteous&display=swap"
+        rel="stylesheet"
+      />
+
+      <link
+        href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Atkinson+Hyperlegible&family=Bebas+Neue&family=Fira+Sans&family=Georama:ital@1&family=Gowun+Dodum&family=Hahmlet&family=Lato&family=Merriweather&family=MonteCarlo&family=Montserrat&family=Mukta&family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Serif&family=Nunito&family=Open+Sans&family=Open+Sans+Condensed:wght@300&family=Oswald&family=PT+Sans&family=PT+Serif&family=Palette+Mosaic&family=Playfair+Display&family=Poppins&family=Quicksand&family=Raleway&family=Roboto+Condensed&family=Roboto+Mono&family=Roboto+Slab&family=Roboto:ital@0;1&family=Rubik&family=STIX+Two+Text&family=Source+Sans+Pro&family=Style+Script&family=Teko&family=Titillium+Web&family=Ubuntu&family=WindSong&display=swap"
+        rel="stylesheet"
+      />
+    </div>
 
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div id="heading">
       <h1 class="heading-content">Online Notepad <span>[V1]</span></h1>
+
       <button id="clear" title="clear">Clear</button>
       <button id="dfz" title="decrease font size">-</button>
-      <button id="ifz" title="increase font size">+</button>
       <button id="dfs">Default Font Size</button>
+      <button id="ifz" title="increase font size">+</button>
+
+      <select id="select">
+        <option id="o1">Ubuntu Mono</option>
+        <option id="t2">Roboto</option>
+        <option id="t3">Georama</option>
+        <option id="f4">Palette Mosaic</option>
+        <option id="f5">Hahmlet</option>
+        <option id="s6">Open Sans</option>
+        <option id="s7">Noto Sans JP</option>
+        <option id="e8">Lato</option>
+        <option id="n9">Style Script</option>
+        <option id="t10">Montserrat</option>
+        <option id="t12">Fira Code</option>
+        <option id="t13">Press Start 2P</option>
+        <option id="t14">Andada Pro</option>
+        <option id="t15">Atkinson Hyperlegible</option>
+        <option id="t16">Bebas Neue</option>
+      </select>
     </div>
     <textarea id="textarea"></textarea>
     <script src="scripts.js"></script>
