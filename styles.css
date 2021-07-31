@@ -4,6 +4,11 @@
   user-select: none;
 }
 
+span {
+  vertical-align: super;
+  font-size: small;
+}
+
 #dfs {
   width: 170px;
 }
