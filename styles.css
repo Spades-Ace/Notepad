@@ -4,6 +4,10 @@
   user-select: none;
 }
 
+#dfs {
+  width: 170px;
+}
+
 html,
 body {
   width: 100vw;

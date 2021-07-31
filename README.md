@@ -7,5 +7,5 @@ You can type in the whole page and it saves what you typed for later.
 
 Authors:
 
--   [Sai Vanga](https://sai.rocks)
--   [Lasya Vanga](https://lasya.net)
+- [Sai Vanga](https://sai.rocks)
+- [Lasya Vanga](https://lasya.net)
