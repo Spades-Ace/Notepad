@@ -5,25 +5,12 @@ const textarea = document.getElementById("textarea");
 const clear = document.getElementById("clear");
 const select = document.getElementById("select");
 
-const one = document.getElementById("o1");
-const two = document.getElementById("t2");
-const three = document.getElementById("t3");
-const four = document.getElementById("f4");
-const five = document.getElementById("f5");
-const six = document.getElementById("s6");
-const seven = document.getElementById("s7");
-const eight = document.getElementById("e8");
-const nine = document.getElementById("n9");
-const ten = document.getElementById("t10");
-const eleven = document.getElementById("e11");
-const twelve = document.getElementById("t12");
-const thirteen = document.getElementById("t13");
-
 textarea.value = localStorage.getItem("text");
 
 textarea.addEventListener("input", () => {
   localStorage.setItem("text", textarea.value);
 });
+
 clear.addEventListener("click", function () {
   localStorage.clear();
   textarea.value = "";
@@ -52,4 +39,13 @@ dfsEl.addEventListener("click", () => {
   textarea.style.fontSize = "20px";
 });
 
+const changeFontFamilyOfSelect = () => {
+  select.style.fontFamily = select.value;
+};
 
+const changeFontFamilyOfTxtArea = () => {
+  console.log(select.value);
+  textarea.style.fontFamily = `"${select.value}"`;
+};
+
+select.addEventListener("input", changeFontFamilyOfTxtArea);

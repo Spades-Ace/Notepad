@@ -64,8 +64,182 @@
   font-family: "Bebas Neue";
 }
 
+#ff1 {
+  user-select: none;
+  font-family: "Fira Sans";
+}
+
+#ff2 {
+  user-select: none;
+  font-family: "Gowun Dodum";
+}
+
+#ff3 {
+  user-select: none;
+  font-family: "Merriweather";
+}
+
+#ff4 {
+  user-select: none;
+  font-family: "MonteCarlo";
+}
+
+#ff5 {
+  user-select: none;
+  font-family: "Mukta";
+}
+
+#ff6 {
+  user-select: none;
+  font-family: "Noto Sans";
+}
+
+#ff7 {
+  user-select: none;
+  font-family: "Noto Serif";
+}
+
+#ff8 {
+  font-family: "Nunito";
+  user-select: none;
+}
+
+#ff9 {
+  font-family: "Open Sans Condensed";
+  user-select: none;
+}
+
+#ff10 {
+  font-family: "Oswald";
+  user-select: none;
+}
+
+#ff11 {
+  font-family: "Playfair Display";
+  user-select: none;
+}
+
+#ff12 {
+  font-family: "Poppins";
+  user-select: none;
+}
+
+#ff13 {
+  font-family: "PT Sans";
+  user-select: none;
+}
+
+#ff14 {
+  font-family: "WindSong";
+  user-select: none;
+}
+
+#ff15 {
+  font-family: "Ubuntu";
+  user-select: none;
+}
+
+#ff16 {
+  font-family: "Titillium Web";
+  user-select: none;
+}
+
+#ff17 {
+  font-family: "Teko";
+  user-select: none;
+}
+
+#ff18 {
+  font-family: "PT Serif";
+  user-select: none;
+}
+
+#ff19 {
+  font-family: "Quicksand";
+  user-select: none;
+}
+
+#ff20 {
+  font-family: "Raleway";
+  user-select: none;
+}
+
+#ff21 {
+  font-family: "Roboto Mono";
+  user-select: none;
+}
+
+#ff22 {
+  font-family: "Roboto Slab";
+  user-select: none;
+}
+
+#ff23 {
+  font-family: "Rubik";
+  user-select: none;
+}
+
+#ff24 {
+  font-family: "Source Sans Pro";
+  user-select: none;
+}
+
+#ff25 {
+  font-family: "STIX Two Text";
+  user-select: none;
+}
+
+#ff26 {
+  font-family: "BioRhyme Expanded";
+  user-select: none;
+}
+
+#ff27 {
+  font-family: "Dhurjati";
+  user-select: none;
+}
+
+#ff28 {
+  font-family: "Fruktur";
+  user-select: none;
+}
+
+#ff29 {
+  font-family: "Geostar";
+  user-select: none;
+}
+
+#ff30 {
+  font-family: "Geostar Fill";
+  user-select: none;
+}
+
+#ff31 {
+  font-family: "Hanalei";
+  user-select: none;
+}
+
+#ff32 {
+  font-family: "Kenia";
+  user-select: none;
+}
+
+#ff33 {
+  font-family: "Lexend Peta";
+  user-select: none;
+}
+
+#ff34 {
+  font-family: "Lexend Zetta";
+  user-select: none;
+}
+
+#ff35 {
+  font-family: "Vibes";
+  user-select: none;
+}
+
 /*
-font-family: 'Bebas Neue', cursive;
 font-family: 'Fira Sans', sans-serif;
 font-family: 'Gowun Dodum', sans-serif;
 font-family: 'Merriweather', serif;
@@ -90,7 +264,19 @@ font-family: 'STIX Two Text', serif;
 font-family: 'Teko', sans-serif;
 font-family: 'Titillium Web', sans-serif;
 font-family: 'Ubuntu', sans-serif;
-font-family: 'WindSong', cursive; */
+font-family: 'WindSong', cursive; 
+
+font-family: 'BioRhyme Expanded', serif;
+font-family: 'Dhurjati', sans-serif;
+font-family: 'Fruktur', cursive;
+font-family: 'Geostar', cursive;
+font-family: 'Geostar Fill', cursive;
+font-family: 'Hanalei', cursive;
+font-family: 'Kenia', cursive;
+font-family: 'Lexend Peta', sans-serif;
+font-family: 'Lexend Tera', sans-serif;
+font-family: 'Vibes', cursive;
+*/
 
 select {
   color: #023047;
