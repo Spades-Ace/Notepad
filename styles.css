@@ -4,6 +4,136 @@
   user-select: none;
 }
 
+select {
+  color: #023047;
+  font-size: 17px;
+  justify-content: center;
+  margin: 12px;
+  background-color: #dee096;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  width: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+span {
+  vertical-align: super;
+  font-size: small;
+}
+
+#dfs {
+  width: 170px;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+textarea {
+  resize: none;
+  background-color: #457b9d;
+  border: 0px solid white;
+  padding: 16px;
+  color: white;
+  font-size: 20px;
+  flex: 1;
+}
+
+textarea:focus {
+  border: 0px;
+}
+
+option {
+  text-align: center;
+}
+
+body {
+  background-color: #457b9d;
+  display: flex;
+  flex-direction: column;
+}
+
+#circle-div {
+  flex: 1;
+  position: relative;
+}
+
+#heading {
+  background-color: #e63946;
+  border-bottom: 8px solid #e9d8a6;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  margin-right: 10px;
+  color: #f1faee;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 2;
+}
+
+#circle {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  background-color: #fec5bb;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+span {
+  font-family: "Balsamiq Sans", cursive;
+  color: #264653;
+}
+
+h3 {
+  font-family: "Fredoka One", cursive;
+  color: #023047;
+  text-align: center;
+  margin: 12px;
+  background-color: #fdffb6;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  width: 160px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: "Fredoka One", cursive;
+  color: #023047;
+  font-size: 17px;
+  text-align: center;
+  margin: 12px;
+  border: 2px solid black;
+  background-color: #dee096;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  width: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+p {
+  display: inline-block;
+}
+
+/* Font Settings */
+
 #o1 {
   font-family: "Ubuntu Mono";
 }
@@ -234,174 +364,215 @@
   user-select: none;
 }
 
-#ff35 {
+#g1 {
   font-family: "Vibes";
   user-select: none;
 }
 
+#g2 {
+  font-family: "";
+  user-select: none;
+}
+
+#g3 {
+  font-family: "";
+  user-select: none;
+}
+
+#g4 {
+  font-family: "";
+  user-select: none;
+}
+
+#g5 {
+  font-family: "";
+  user-select: none;
+}
+
+#g6 {
+  font-family: "";
+  user-select: none;
+}
+
+#g7 {
+  font-family: "";
+  user-select: none;
+}
+
+#g8 {
+  font-family: "";
+  user-select: none;
+}
+
+#g9 {
+  font-family: "";
+  user-select: none;
+}
+
+#g10 {
+  font-family: "";
+  user-select: none;
+}
+#g10 {
+  font-family: "";
+  user-select: none;
+}
+#g11 {
+  font-family: "";
+  user-select: none;
+}
+#g12 {
+  font-family: "";
+  user-select: none;
+}
+#g13 {
+  font-family: "";
+  user-select: none;
+}
+#g1 {
+  font-family: "";
+  user-select: none;
+}
+#g14 {
+  font-family: "";
+  user-select: none;
+}
+#g15 {
+  font-family: "";
+  user-select: none;
+}
+#g1 {
+  font-family: "";
+  user-select: none;
+}
+#g16 {
+  font-family: "";
+  user-select: none;
+}
+#g17 {
+  font-family: "";
+  user-select: none;
+}
+#g18 {
+  font-family: "";
+  user-select: none;
+}
+#g19 {
+  font-family: "";
+  user-select: none;
+}
+#g20 {
+  font-family: "";
+  user-select: none;
+}
+#g2 {
+  font-family: "";
+  user-select: none;
+}
+#g21 {
+  font-family: "";
+  user-select: none;
+}
+#g22 {
+  font-family: "";
+  user-select: none;
+}
+#g23 {
+  font-family: "";
+  user-select: none;
+}
+#g24 {
+  font-family: "";
+  user-select: none;
+}
+#g25 {
+  font-family: "";
+  user-select: none;
+}
+#g26 {
+  font-family: "";
+  user-select: none;
+}
+#g27 {
+  font-family: "";
+  user-select: none;
+}
+
+
 /*
+
+Sans-Serif
+
 font-family: 'Fira Sans', sans-serif;
 font-family: 'Gowun Dodum', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'MonteCarlo', cursive;
 font-family: 'Mukta', sans-serif;
 font-family: 'Noto Sans', sans-serif;
-font-family: 'Noto Serif', serif;
 font-family: 'Nunito', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Oswald', sans-serif;
-font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Raleway', sans-serif;
-font-family: 'Roboto Mono', monospace;
-font-family: 'Roboto Slab', serif;
 font-family: 'Rubik', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
-font-family: 'STIX Two Text', serif;
 font-family: 'Teko', sans-serif;
 font-family: 'Titillium Web', sans-serif;
 font-family: 'Ubuntu', sans-serif;
-font-family: 'WindSong', cursive; 
+font-family: 'Dhurjati', sans-serif;
+font-family: 'Lexend Peta', sans-serif;
+font-family: 'Lexend Tera', sans-serif;
+
+Serif
 
 font-family: 'BioRhyme Expanded', serif;
-font-family: 'Dhurjati', sans-serif;
+font-family: 'STIX Two Text', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Merriweather', serif;
+
+  Cursive 
+
+font-family: 'MonteCarlo', cursive;
 font-family: 'Fruktur', cursive;
+font-family: 'WindSong', cursive; 
 font-family: 'Geostar', cursive;
 font-family: 'Geostar Fill', cursive;
 font-family: 'Hanalei', cursive;
 font-family: 'Kenia', cursive;
-font-family: 'Lexend Peta', sans-serif;
-font-family: 'Lexend Tera', sans-serif;
 font-family: 'Vibes', cursive;
+
+  Monospace
+
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Azeret Mono', monospace;
+font-family: 'B612 Mono', monospace;
+font-family: 'Courier Prime', monospace;
+font-family: 'Cousine', monospace;
+font-family: 'Cutive Mono', monospace;
+font-family: 'DM Mono', monospace;
+font-family: 'Fira Code', monospace;
+font-family: 'Fira Mono', monospace;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Inconsolata', monospace;
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Nova Mono', monospace;
+font-family: 'Overpass Mono', monospace;
+font-family: 'Oxygen Mono', monospace;
+font-family: 'PT Mono', monospace;
+font-family: 'Red Hat Mono', monospace;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Space Mono', monospace;
+font-family: 'Spline Sans Mono', monospace;
+font-family: 'Syne Mono', monospace;
+font-family: 'Ubuntu Mono', monospace;
+font-family: 'VT323', monospace;
+font-family: 'Xanh Mono', monospace;
 */
-
-select {
-  color: #023047;
-  font-size: 17px;
-  justify-content: center;
-  margin: 12px;
-  background-color: #dee096;
-  display: inline-block;
-  border-radius: 20px;
-  padding: 10px;
-  width: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  cursor: pointer;
-  border: 2px solid black;
-}
-
-span {
-  vertical-align: super;
-  font-size: small;
-}
-
-#dfs {
-  width: 170px;
-}
-
-html,
-body {
-  width: 100vw;
-  height: 100vh;
-}
-
-textarea {
-  resize: none;
-  background-color: #457b9d;
-  border: 0px solid white;
-  padding: 16px;
-  color: white;
-  font-size: 20px;
-  flex: 1;
-}
-
-textarea:focus {
-  border: 0px;
-}
-
-option {
-  text-align: center;
-}
-
-body {
-  background-color: #457b9d;
-  display: flex;
-  flex-direction: column;
-}
-
-#circle-div {
-  flex: 1;
-  position: relative;
-}
-
-#heading {
-  background-color: #e63946;
-  border-bottom: 8px solid #e9d8a6;
-}
-
-h1 {
-  font-family: "Righteous", cursive;
-  margin-right: 10px;
-  color: #f1faee;
-  display: inline-block;
-  padding: 10px;
-  margin-top: 2;
-}
-
-#circle {
-  border-radius: 100%;
-  width: 100px;
-  height: 100px;
-  background-color: #fec5bb;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-span {
-  font-family: "Balsamiq Sans", cursive;
-  color: #264653;
-}
-
-h3 {
-  font-family: "Fredoka One", cursive;
-  color: #023047;
-  text-align: center;
-  margin: 12px;
-  background-color: #fdffb6;
-  display: inline-block;
-  border-radius: 20px;
-  padding: 10px;
-  width: 160px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  font-family: "Fredoka One", cursive;
-  color: #023047;
-  font-size: 17px;
-  text-align: center;
-  margin: 12px;
-  border: 2px solid black;
-  background-color: #dee096;
-  display: inline-block;
-  border-radius: 20px;
-  padding: 10px;
-  width: 80px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  cursor: pointer;
-}
-
-p {
-  display: inline-block;
-}
