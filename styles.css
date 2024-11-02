@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "La-Macchina";
+  src: url("Fonts/la-macchina/La Macchina.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +14,7 @@ select {
   font-size: 17px;
   justify-content: center;
   margin: 12px;
-  background-color: #dee096;
+  background-color: #c392ff;
   display: inline-block;
   border-radius: 20px;
   padding: 10px;
@@ -37,7 +42,7 @@ body {
 
 textarea {
   resize: none;
-  background-color: #457b9d;
+  background-color: #c392ff;
   border: 0px solid white;
   padding: 16px;
   color: white;
@@ -54,7 +59,7 @@ option {
 }
 
 body {
-  background-color: #457b9d;
+  background-color: #c392ff;
   display: flex;
   flex-direction: column;
 }
@@ -65,8 +70,8 @@ body {
 }
 
 #heading {
-  background-color: #e63946;
-  border-bottom: 8px solid #e9d8a6;
+  background-color: #cf3568;
+  border-bottom: 8px solid #c392ff;
 }
 
 h1 {
@@ -90,7 +95,7 @@ h1 {
 
 span {
   font-family: "Balsamiq Sans", cursive;
-  color: #264653;
+  color: #c392ff;
 }
 
 h3 {
@@ -98,7 +103,7 @@ h3 {
   color: #023047;
   text-align: center;
   margin: 12px;
-  background-color: #fdffb6;
+  background-color: #c392ff;
   display: inline-block;
   border-radius: 20px;
   padding: 10px;
@@ -118,7 +123,7 @@ button {
   text-align: center;
   margin: 12px;
   border: 2px solid black;
-  background-color: #dee096;
+  background-color: #c392ff;
   display: inline-block;
   border-radius: 20px;
   padding: 10px;
@@ -369,7 +374,9 @@ p {
   user-select: none;
 }
 
-
+#La {
+  font-family: "La-Macchina", sans-serif;
+}
 
 /*
 
@@ -448,3 +455,68 @@ font-family: 'Ubuntu Mono', monospace;
 font-family: 'VT323', monospace;
 font-family: 'Xanh Mono', monospace;
 */
+
+
+/* Updated styles for #heading */
+#heading {
+  background-color: #cf3568;
+  border-bottom: 8px solid #c392ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* Styles for the controls on the left side */
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+/* Adjusted margin for buttons and select inside controls */
+.controls button,
+.controls select {
+  margin: 0 5px;
+}
+
+/* Optional: Style adjustments for the dark mode toggle button */
+#dark-mode-toggle {
+  font-family: "Fredoka One", cursive;
+  color: #023047;
+  width: 170px;
+  font-size: 17px;
+  background-color: #c392ff;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Dark Mode Styles (including dark-mode toggle button) */
+.dark-mode {
+  background-color: #000000; /* Black background */
+  color: #c392ff; /* Light purple text */
+}
+
+.dark-mode textarea {
+  background-color: #000000;
+  color: #c392ff;
+  border: 1px solid #c392ff;
+}
+
+.dark-mode #heading {
+  background-color: #1a1a1a;
+  border-bottom: 8px solid #000000;
+}
+
+.dark-mode button,
+.dark-mode select {
+  background-color: #1a1a1a;
+  color: #c392ff;
+  border: 2px solid #c392ff;
+}
+
+.dark-mode option {
+  background-color: #000000;
+  color: #c392ff;
+}
